@@ -160,7 +160,7 @@ if(isset($_POST['order_btn'])){
 
 
 
-<?php include 'footer.php'; ?>
+
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>

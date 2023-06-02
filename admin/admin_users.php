@@ -32,6 +32,13 @@ if(isset($_GET['delete'])){
    <!-- custom admin css file link  -->
    <link rel="stylesheet" href="../css/admin_style.css">
 
+   <!-- Favicons -->
+   <link href="../images/logo.png" rel="icon">
+   <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+
+   <a href="index.php"><img src="images/header.png" alt="" title="" width="300px"/></a>
+
+
 </head>
 <body>
    
@@ -50,7 +57,7 @@ if(isset($_GET['delete'])){
          <p> user id : <span><?php echo $fetch_users['id']; ?></span> </p>
          <p> username : <span><?php echo $fetch_users['name']; ?></span> </p>
          <p> email : <span><?php echo $fetch_users['email']; ?></span> </p>
-         <p> user type : <span style="color:<?php if($fetch_users['user_type'] == 'admin'){ echo 'var(--orange)'; } ?>"><?php echo $fetch_users['user_type']; ?></span> </p>
+      
          <a href="admin_users.php?delete=<?php echo $fetch_users['id']; ?>" onclick="return confirm('delete this user?');" class="delete-btn">delete user</a>
       </div>
       <?php

@@ -18,13 +18,17 @@ if(!isset($admin_id)){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>admin panel</title>
+   <title>Admin Panel</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- custom admin css file link  -->
    <link rel="stylesheet" href="../css/admin_style.css">
+
+   <!-- Favicons -->
+   <link href="../images/logo.png" rel="icon">
+   <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
 
 </head>
 <body>
@@ -50,7 +54,7 @@ if(!isset($admin_id)){
                };
             };
          ?>
-         <h3>$<?php echo $total_pendings; ?>/-</h3>
+         <h3>₱<?php echo $total_pendings; ?>/-</h3>
          <p>total pendings</p>
       </div>
 
@@ -65,7 +69,7 @@ if(!isset($admin_id)){
                };
             };
          ?>
-         <h3>$<?php echo $total_completed; ?>/-</h3>
+         <h3>₱<?php echo $total_completed; ?>/-</h3>
          <p>completed payments</p>
       </div>
 

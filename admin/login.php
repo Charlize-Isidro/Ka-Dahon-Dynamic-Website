@@ -52,6 +52,10 @@ if(isset($_POST['submit'])){
    <!-- custom css file link  -->
    <link rel="stylesheet" href="../css/style.css">
 
+   <!-- Favicons -->
+   <link href="../images/logo.png" rel="icon">
+   <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+
 </head>
 <body>
 

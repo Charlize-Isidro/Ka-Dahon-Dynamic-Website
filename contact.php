@@ -22,7 +22,7 @@ if(isset($_POST['send'])){
    if(mysqli_num_rows($select_message) > 0){
       $message[] = 'message sent already!';
    }else{
-      mysqli_query($conn, "INSERT INTO `message`(user_id, name, email, number, message) VALUES('$user_id', '$name', '$email', '$number', '$msg')") or die('query failed');
+      mysqli_query($conn, "INSERT INTO `message`( name, email, message) VALUES('$name', '$email', '$msg')") or die('query failed');
       $message[] = 'message sent successfully!';
    }
 
@@ -36,13 +36,17 @@ if(isset($_POST['send'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>contact</title>
+   <title>Contact</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+
+   <!-- Favicons -->
+   <link href="images/logo.png" rel="icon">
+   <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
 
 </head>
 <body>
@@ -51,7 +55,7 @@ if(isset($_POST['send'])){
 
 <div class="heading">
    <h3>contact us</h3>
-   <p> <a href="home.php">home</a> / contact </p>
+   <p> <a href="index.php">home</a> / contact </p>
 </div>
 
 <section class="contact">
@@ -73,8 +77,6 @@ if(isset($_POST['send'])){
 
 
 
-
-<?php include 'footer.php'; ?>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>

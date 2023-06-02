@@ -1,5 +1,5 @@
 <?php
-session_start();
+// session_start();
 
 // $user_id = $_SESSION['user_id']; 
 // if(isset($message)){
@@ -30,16 +30,27 @@ session_start();
 
    <div class="header-2">
       <div class="flex">
-         <a href="home.php" class="logo">Ka-Dahon.</a>
+         <!-- <a href="index.php" class="logo">Ka-Dahon.</a> -->
+         <!-- <link href="images/header.png" rel="icon" class="logo"> -->
+         <a href="index.php"><img src="images/header.png" alt="" title="" width="300px"/></a>
          <!-- <link href="../images/logo.png" rel="icon"> -->
 
          <nav class="navbar">
-            <a href="home.php">home</a>
+            <a href="index.php">home</a>
             <a href="about.php">about</a>
             <a href="shop.php">shop</a>
             <a href="contact.php">contact</a>
             <a href="orders.php">orders</a>
          </nav>
+         <!-- <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="index.php">Home</a></li>
+              </li>
+              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+              <li><a class="nav-link scrollto" href="#team">Team</a></li>
+              <li><a class="nav-link scrollto" href="#features">Service</a></li>
+            </ul>
+          </li> -->
 
          <div class="icons">
             <div id="menu-btn" class="fas fa-bars"></div>
@@ -61,3 +72,4 @@ session_start();
    </div>
 
 </header>
+

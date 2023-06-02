@@ -4,7 +4,7 @@ include 'config.php';
 
 session_start();
 
-$user_id = $_SESSION['user_id'];
+// $user_id = $_SESSION['user_id'];
 
 // if(!isset($user_id)){
 //    header('location:login.php');
@@ -18,13 +18,17 @@ $user_id = $_SESSION['user_id'];
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>about</title>
+   <title>About</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+
+   <!-- Favicons -->
+   <link href="images/logo.png" rel="icon">
+   <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
 
 </head>
 <body>
@@ -33,7 +37,7 @@ $user_id = $_SESSION['user_id'];
 
 <div class="heading">
    <h3>about us</h3>
-   <p> <a href="home.php">home</a> / about </p>
+   <p> <a href="index.php">home</a> / about </p>
 </div>
 
 <section class="about">
@@ -41,7 +45,7 @@ $user_id = $_SESSION['user_id'];
    <div class="flex">
 
       <div class="image">
-         <img src="images/about-img.jpg" alt="">
+         <img src="images/about.jpg" alt="">
       </div>
 
       <div class="content">
@@ -50,14 +54,14 @@ $user_id = $_SESSION['user_id'];
          <p>> Plant Sales</p>
          <p>> Plant Consultation</p>
          <p>> Plant Maintenance</p>
-         <a href="contact.php" class="btn">contact us</a>
+         <a href="contact.php" class="btn" >contact us</a>
       </div>
 
    </div>
 
 </section>
 
-<section class="reviews">
+<!-- <section class="reviews">
 
    <h1 class="title">client's reviews</h1>
 
@@ -143,9 +147,9 @@ $user_id = $_SESSION['user_id'];
 
    </div>
 
-</section>
+</section> -->
 
-<section class="authors">
+<!-- <section class="authors">
 
    <h1 class="title">greate authors</h1>
 
@@ -219,7 +223,7 @@ $user_id = $_SESSION['user_id'];
 
    </div>
 
-</section>
+</section> -->
 
 
 
@@ -227,7 +231,6 @@ $user_id = $_SESSION['user_id'];
 
 
 
-<?php include 'footer.php'; ?>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>

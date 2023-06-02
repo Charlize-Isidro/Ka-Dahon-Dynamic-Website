@@ -4,7 +4,7 @@ include 'config.php';
 
 session_start();
 
-$user_id = $_SESSION['user_id'];
+// $user_id = $_SESSION['user_id'];
 
 // if(!isset($user_id)){
 //    header('location:login.php');
@@ -36,13 +36,18 @@ if(isset($_POST['add_to_cart'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>home</title>
+   <title>Home</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+
+   <!-- Favicons -->
+   <link href="images/logo.png" rel="icon" >
+   <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+
 
 </head>
 <body>
@@ -53,7 +58,7 @@ if(isset($_POST['add_to_cart'])){
 
    <div class="content">
       <h3>Green your space, with our green grace.</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod? Reiciendis ut porro iste totam.</p>
+      <p>Go  Green!</p>
       <a href="about.php" class="white-btn">discover more</a>
    </div>
 
@@ -99,12 +104,12 @@ if(isset($_POST['add_to_cart'])){
    <div class="flex">
 
       <div class="image">
-         <img src="images/about-img.jpg" alt="">
+         <img src="images/about.jpg" alt="">
       </div>
 
       <div class="content">
          <h3>about us</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
+         <p>Ka-Dahon! We are plant enthusiasts who wants to start our small business from our hobby.</p>
          <a href="about.php" class="btn">read more</a>
       </div>
 
@@ -115,9 +120,7 @@ if(isset($_POST['add_to_cart'])){
 <section class="home-contact">
 
    <div class="content">
-      <h3>have any questions?</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cumque exercitationem repellendus, amet ullam voluptatibus?</p>
-      <a href="contact.php" class="white-btn">contact us</a>
+      <h3>have any questions?</h3><a href="contact.php" class="white-btn">contact us</a>
    </div>
 
 </section>
@@ -126,7 +129,7 @@ if(isset($_POST['add_to_cart'])){
 
 
 
-<?php include 'footer.php'; ?>
+
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
