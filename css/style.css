@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
 :root{
-   --green:#91C43F;
+   --purple:#91C43F;
    --red:#c0392b;
    --orange:#f39c12;
    --black:#333;
@@ -23,7 +23,7 @@
 }
 
 *::selection{
-   background-color: var(--green);
+   background-color: var(--purple);
    color:var(--white);
 }
 
@@ -37,7 +37,7 @@
 }
 
 *::-webkit-scrollbar-thumb{
-   background-color: var(--green);
+   background-color: var(--purple);
 }
 
 html{
@@ -117,7 +117,7 @@ section{
 
 .white-btn,
 .btn{
-   background-color: var(--green);
+   background-color: var(--purple);
 }
 
 .option-btn{
@@ -129,8 +129,8 @@ section{
 }
 
 .white-btn:hover{
-   background-color: var(--light-white);
-   color:var(green);
+   background-color: var(--white);
+   color:var(--black);
 }
 
 .heading{
@@ -158,7 +158,7 @@ section{
 }
 
 .heading p a{
-   color:var(--green);
+   color:var(--purple);
 }
 
 .heading p a:hover{
@@ -216,7 +216,7 @@ section{
 }
 
 .form-container form p a{
-   color:var(--green);
+   color:var(--purple);
 }
 
 .form-container form p a:hover{
@@ -250,9 +250,9 @@ section{
 .header .header-2 .flex{
    padding:2rem;
    display: flex;
-   /* align-items: center; */
+   align-items: center;
    justify-content: space-between;
-   max-width: 120px;
+   max-width: 1200px;
    margin:0 auto;
    position: relative;
 }
@@ -264,7 +264,7 @@ section{
 }
 
 .header .header-1 .flex .share a:hover{
-   color:var(--green);
+   color:var(--purple);
 }
 
 .header .header-1 .flex p{
@@ -273,7 +273,7 @@ section{
 }
 
 .header .header-1 .flex p a{
-   color:var(--green);
+   color:var(--purple);
 }
 
 .header .header-1 .flex p a:hover{
@@ -282,7 +282,7 @@ section{
 
 .header .header-2 .flex .logo{
    font-size: 2.5rem;
-   color:var(--green);
+   color:var(--purple);
 }
 
 .header .header-2 .flex .navbar a{
@@ -292,7 +292,7 @@ section{
 }
 
 .header .header-2 .flex .navbar a:hover{
-   color:var(--green);
+   color:var(--purple);
    text-decoration: underline;
 }
 
@@ -304,7 +304,7 @@ section{
 }
 
 .header .header-2 .flex .icons > *:hover{
-   color:var(--green);
+   color:var(--purple);
 }
 
 #menu-btn{
@@ -336,16 +336,13 @@ section{
 }
 
 .header .header-2 .flex .user-box p span{
-   color:var(--green);
+   color:var(--purple);
 }
 
 .header .header-2 .flex .user-box .delete-btn{
    margin-top: 0;
 }
 
-/* #btnCon {
-   color:var(--green);
-} */
 .home{
    min-height: 70vh;
    background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/homebg.jpg) no-repeat;
@@ -839,7 +836,7 @@ section{
 }
 
 .placed-orders .box-container .box p span{
-   color:var(--green);
+   color:var(--purple);
 }
 
 .search-form form{
@@ -901,12 +898,12 @@ section{
 
 .footer .box-container .box p i,
 .footer .box-container .box a i{
-   color:var(--green);
+   color:var(--purple);
    padding-right: .5rem;
 }
 
 .footer .box-container .box a:hover{
-   color:var(--green);
+   color:var(--purple);
    text-decoration: underline;
 }
 
@@ -920,7 +917,7 @@ section{
 }
 
 .footer .credit span{
-   color:var(--green);
+   color:var(--purple);
 }
 
 
