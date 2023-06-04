@@ -20,8 +20,8 @@ if(isset($message)){
       <a href="admin_products.php"><img src="../images/header.png" alt="" title="" width="300px"/></a>
       
       <nav class="navbar">
-         <a href="admin_products.php">home</a>
-         <a href="admin_contacts.php">messages</a>
+      
+         
          <!-- <a href="logout.php" class="delete-btn">logout</a> -->
          <!-- <input type="submit" value="logout" name="logout" class="btn">
           -->

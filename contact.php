@@ -14,6 +14,7 @@ if(isset($_POST['send'])){
 
    $name = mysqli_real_escape_string($conn, $_POST['name']);
    $email = mysqli_real_escape_string($conn, $_POST['email']);
+   $subject = mysqli_real_escape_string($conn, $_POST['subject']);
    // $number = $_POST['number'];
    $msg = mysqli_real_escape_string($conn, $_POST['message']);
 
@@ -60,11 +61,11 @@ if(isset($_POST['send'])){
 
 <section class="contact">
 
-   <form action="" method="post">
+   <form action="send.php" method="post">
       <h3>say something!</h3>
       <input type="text" name="name" required placeholder="enter your name" class="box">
       <input type="email" name="email" required placeholder="enter your email" class="box">
-      <!-- <input type="number" name="number" required placeholder="enter your number" class="box"> -->
+      <input type="text" name="subject" required placeholder="enter subject" class="box">
       <textarea name="message" class="box" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
       <input type="submit" value="send message" name="send" class="btn">
    </form>
