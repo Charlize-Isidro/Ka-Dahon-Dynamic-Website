@@ -51,9 +51,9 @@ session_start();
       <div class="content">
          <h3>KA-DAHON Services</h3>
          <p>Ka-Dahon Plant Shop was born out of the hobby of a student with a green thumb, who also happens to be deeply invested in his course of study as a Landscape Architect. The company was established in 2018 and has since grown to become a thriving business.</p>
-         <p>> Plant Sales</p>
-         <p>> Plant Consultation</p>
-         <p>> Plant Maintenance</p>
+         <p> <a href="shop.php">> Plant Sales</a> </p>
+         <p> <a href="shop.php">> Plant Consultation</a> </p>
+         <p> <a href="shop.php">> Plant Maintenance</a> </p>
          <a href="contact.php" class="btn" >contact us</a>
       </div>
 
@@ -224,12 +224,6 @@ session_start();
    </div>
 
 </section> -->
-
-
-
-
-
-
 
 
 <!-- custom js file link  -->

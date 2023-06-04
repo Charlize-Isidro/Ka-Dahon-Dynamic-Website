@@ -36,13 +36,17 @@ if(isset($_POST['add_to_cart'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>search page</title>
+   <title>Search</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+
+   <!-- !-- Favicons -->
+   <link href="images/logo.png" rel="icon">
+   <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
 
 </head>
 <body>
@@ -51,7 +55,7 @@ if(isset($_POST['add_to_cart'])){
 
 <div class="heading">
    <h3>search page</h3>
-   <p> <a href="home.php">home</a> / search </p>
+   <p> <a href="index.php">home</a> / search </p>
 </div>
 
 <section class="search-form">
@@ -74,12 +78,12 @@ if(isset($_POST['add_to_cart'])){
    <form action="" method="post" class="box">
       <img src="uploaded_img/<?php echo $fetch_product['image']; ?>" alt="" class="image">
       <div class="name"><?php echo $fetch_product['name']; ?></div>
-      <div class="price">$<?php echo $fetch_product['price']; ?>/-</div>
-      <input type="number"  class="qty" name="product_quantity" min="1" value="1">
+      <div class="price">₱<?php echo $fetch_product['price']; ?>/-</div>
+      <!-- <input type="number"  class="qty" name="product_quantity" min="1" value="1"> -->
       <input type="hidden" name="product_name" value="<?php echo $fetch_product['name']; ?>">
       <input type="hidden" name="product_price" value="<?php echo $fetch_product['price']; ?>">
       <input type="hidden" name="product_image" value="<?php echo $fetch_product['image']; ?>">
-      <input type="submit" class="btn" value="add to cart" name="add_to_cart">
+
    </form>
    <?php
             }

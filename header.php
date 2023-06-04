@@ -32,7 +32,7 @@
       <div class="flex">
          <!-- <a href="index.php" class="logo">Ka-Dahon.</a> -->
          <!-- <link href="images/header.png" rel="icon" class="logo"> -->
-         <a href="index.php"><img src="images/header.png" alt="" title="" width="300px"/></a>
+         <a href="index.php"><img src="images/logo.png" alt="" title="" width="200px"/></a>
          <!-- <link href="../images/logo.png" rel="icon"> -->
 
          <nav class="navbar">
@@ -40,7 +40,7 @@
             <a href="about.php">about</a>
             <a href="shop.php">shop</a>
             <a href="contact.php">contact</a>
-            <a href="orders.php">orders</a>
+            
          </nav>
          <!-- <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
